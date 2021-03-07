@@ -1,0 +1,13 @@
+
+<div class="row">
+    <div class="col-md-4" *ngFor="let home of homeData">
+      <div class="card car">
+        <img class="card-img-top" [src]="home.avatar" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Name: {{home.first_name}}</h5>
+          <p class="card-text">Email:{{home.email}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>

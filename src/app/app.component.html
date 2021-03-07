@@ -1,0 +1,79 @@
+
+
+<div class="bimg">
+    <body background="../assets/view.jpg">
+
+          <nav class="navbar app-navbar">
+           <img src="../assets/icon4.png" class="logo">
+            <ul class="nav  ">
+              <li><a class="nav-link" routerLink="./home">Home</a> </li>
+              <li class="nav-item"><a class="nav-link" routerLink="./about">About us</a></li>
+              <li class="nav-item">
+              <a class="nav-link"  routerLink="./gallery">Gallery</a>
+              </li>
+            
+                <li>
+              
+                  <div class="btn-group" dropdown>
+                      <button id="button-basic" dropdownToggle type="button" class="btn dropdown-toggle"
+                            aria-controls="dropdown-basic">
+                            More<span class="caret"></span>
+                      </button>
+                      <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                        role="menu" aria-labelledby="button-basic">
+                        <li role="menuitem"><a class="dropdown-item" href="#" routerLink="blog">blog</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="" routerLink="./news">News</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="" routerLink="./contact">Team member</a></li>
+                        
+                      </ul>
+                  </div>
+           
+                </li>
+             </ul>
+ 
+          </nav>
+          <br>
+
+
+
+            <router-outlet></router-outlet>
+
+
+
+           
+
+  
+          <!-- <div class="container footer"> -->
+              <div class="row footer ">
+                <div class="col-md-4 " >
+                    <h1><pre class="para">  <b>    Presented By</b></pre></h1>
+                    <ul class="list">
+                      <li class="list-item">Contact :parmananddas488@gmail.com</li>
+                      <li class="list-item">Team member: Parmanand Prasad Das <br>Rambabu Mahato</li>
+                    </ul>
+                  </div>
+                    <div class="col-md-4 ">
+                      <h1><pre class="para" > <b>       Resources</b></pre></h1>
+                      <ul class="list">
+                        <li class="list-item itm">ngx-bootstrap</li>
+                        <li class="list-item itm">Youtube</li>
+                        <li class="list-item itm" >Google</li>
+                      </ul>
+                    </div>
+              <div class="col-md-4 ">
+                <h1><pre class="para"><b> Social media</b></pre></h1>
+                <ul class="list1">
+                  <li class="list-item"><a href="https://www.facebook.com/"><img src="../assets/facebook1.webp" class="icon" alt="fb" ></a></li>
+                  <li class="list-item"><a href="https://twitter.com/login?lang=en"><img src="../assets/twitter.webp" class="icon" alt="twitter" ></a></li>
+                  <li class="list-item"><a href="https://www.linkedin.com/login"><img src="../assets/linkdin.webp" class="icon" alt="linkdin" ></a></li>
+                </ul>
+                </div>
+          </div>
+          <!-- </div> -->
+          <div class="card-footer text-muted">
+            <p>copyright@ 2021</p>
+          </div>
+    </body>
+</div>
+    
+
